@@ -7,7 +7,7 @@
 h1,
 h2,
 h3 {
-  color: grey;
+  color: orange;
   text-align: center;
 }
 
@@ -21,9 +21,13 @@ h3 {
 }
 
 body {
-  background-color: #ffe4af;
+  background-color: rgba(0, 0, 0, 0.4);
   font-family: "open sans";
   font-weight: 600;
+  background-image: url(img/bgimage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
 
 img {
@@ -54,7 +58,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
+  font-size: 20px;
 }
 a:hover {
   color: orange;
