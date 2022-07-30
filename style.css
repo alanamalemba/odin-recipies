@@ -41,3 +41,32 @@ body,html{
 h1,h2,h3{
     color: grey;
 }
+
+.navbar{   
+    border: 1px solid grey;
+    border-radius: 25px;
+    width: 90%;
+    margin: auto;
+
+}
+
+.navbutton{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.currentbutton{
+    background-color: grey;
+    border-radius: 25px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(61, 179, 32);
+
+}
