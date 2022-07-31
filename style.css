@@ -21,8 +21,7 @@ h3,p,li,div{
 img,ul,ol{
     display: block;
     width: 60%;
-    margin-left:auto;
-    margin-right:auto;
+    margin: auto;
 }
 
 img{
@@ -33,9 +32,10 @@ div{
     text-align: center;
 }
 
-body,html{
+body{
     font-family: 'Open Sans';
     background-color: #ffcc99;
+    margin:  0px;
 }
 
 h1,h2,h3{
@@ -43,26 +43,32 @@ h1,h2,h3{
 }
 
 .navbar{   
-    border: 1px solid grey;
-    border-radius: 25px;
-    width: 90%;
+    position: fixed;
+    top: 0px;
+    left: 18%;
+    width: 64%;
     margin: auto;
+    background-color: whitesmoke;
+    border-radius: 0px 0px 32px 32px;
+
+}
+
+.bottom-navbar{
+    width: 64%;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 32px 32px 0px 0px;
 
 }
 
 .navbutton{
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
+    margin: 4px 12px ;
 }
 
 .currentbutton{
-    background-color: grey;
-    border-radius: 25px;
-    color: black;
+    color: grey;
+    border-bottom: 2px solid grey;
 }
 
 a{
